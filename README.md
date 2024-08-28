@@ -73,4 +73,18 @@ For future models I would recommend to decrease the number of historical data es
 
 Finally, I would try forecast ETS function which is a built in Excel function to offer a different prediction, and compare with the 4-point moving average. This is so that I can check to see is mine more robust and a better check for outliers such as 2026 Q1. 
 
+## References
 
+AWS 2022. What is Extract Transform Load. AWS. [Online]. Available from: https://aws.amazon.com/what-is/etl/#:~:text=Extract%2C%20transform%2C%20and%20load%20(,and%20machine%20learning%20(ML)..
+
+Clark, A. 2023. Gigabit broadband in the UK: Government targets, policy, and funding. commonslibrary.parliament.uk. [Online]. Available from: https://commonslibrary.parliament.uk/research-briefings/cbp-8392/.Government of UK 2018. Data Protection Act. GOV.UK. [Online]. Available from: https://www.gov.uk/data-protection.
+
+Jones, E. 2024. Data Accuracy vs. Data Integrity: Similarities and Differences | IBM. Ibm. [Online]. Available from: https://www.ibm.com/think/topics/data-accuracy-vs-data-integrity#:~:text=Data%20accuracy%20refers%20to%20the%20degree%20to.
+
+Manyika, J. and Roxburgh, C. 2011. The impact of the Internet on economic growth and prosperity [Online]. Available from: https://www.mckinsey.com/~/media/McKinsey/Industries/Technology%20Media%20and%20Telecommunications/High%20Tech/Our%20Insights/The%20great%20transformer/MGI_Impact_of_Internet_on_economic_growth.pdf.
+
+Ofcom 2024. Telecommunications Market Data Update Q1 2024. Ofcom.org.uk. [Online]. Available from: https://www.ofcom.org.uk/phones-and-broadband/telecoms-infrastructure/telecommunications-market-data-update-q1-2024/.Wikipedia 2019. 
+
+Ofcom. Wikipedia. [Online]. Available from: https://en.wikipedia.org/wiki/Ofcom.Yu, 
+
+F. 2021. A thorough guide to Time Series Analysis. Medium. [Online]. Available from: https://towardsdatascience.com/a-thorough-guide-to-time-series-analysis-5439c63bc9c5.

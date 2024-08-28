@@ -13,6 +13,6 @@ As the model is using data during the Covid-19 period, this creates a challenge 
 ## Data Engineering
 As I followed a standard Extract Transform and Load (AWS, 2022) model, there are a number of processes I have to follow to ensure the adhere to the guidelines set. 
 
-
+![Screenshots: ETL Diagram](Screenshots/FS_14.png)
 
 ### Heading 3

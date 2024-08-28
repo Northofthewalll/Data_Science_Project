@@ -42,10 +42,31 @@ Using this we can work out the Mean seasonal variation for each fiscal quarter.
 ![Screenshots: Function3](Screenshots/FS_8.png)
 
 ![Screenshots: Final Output](Screenshots/FS_9.png)
+
 Now we can apply the mean seasonal variation to predict the future values.
 
 ![Screenshots: Load](Screenshots/FS_11.png)
 
 Final step was to save the final output to CSV and upload into powerbase for creating the dashboard and graphs. This is because it allows for easy ingestion as it’s a Microsoft product. And the advanced data visualisations will help to show the results of my project more clearly. 
 
-### Heading 3
+## Data Visualisation & Dashboards
+
+![Screenshots: Grapgh1](Screenshots/FS_12.png)
+
+As you can see from the Line graph with the predicted values it shows a gradual trend with spike towards the Q1 2026, which means I made the correct decision not predict past this point. Now the final value could be outlier and will need to taken with caution even if the threshold of 85% was not met. This is because it could offer a false narrative that the prediction is closer than it appears. Hovering over a single point can provide accurate figures for more experienced users. 
+
+![Screenshots: Grapgh2](Screenshots/FS_13.png)
+
+The Pie graph shows even with the spike in Q1 2026 the UK will not meet its target of 85% by 2025 using the 4-point moving average. Using the slicer, I can go all the way back to 2007 Q1 and is interactive making it easier to view data. As the chart would more than likely end up in non-technical hands, it needs to be easy to use.
+
+## Conclusion
+
+The purpose of the project was to determine whether or not the government’s pledge to make Fibre available to 85% of the Uk was feasible or not. After completing the time series model on the Ofcom dataset, I can now conclude that they will not meet this target by the end of 2025. By using applying a times series model to the data set and using a 4-point moving average. And showing the results via analytical graphs.
+I would recommend the government adjusts the target date or decreasing rollouts for upcoming areas. As this model was factoring in a more conservative average. In addition, the impact of the model extends to finance and growth of the country. As mentioned in my executive summary fibre availability has direct impact on the performance of the country in these key sectors.
+In regards to the ethics, privacy and legality of the model, I feel like approach covered all the bases. This was done by firstly using a public dataset which is published by a government approved regulator. Secondly, I ensured the dataset met GDPR such as no private data that could link back to an individual. 
+The one area where I feel like I needed to focus more on was bias, as someone who works in telecommunication industry I feel privileged to have a different view point to others. Furthermore, this could appear as bias from a third party who would see it as a conflict of interest which I believe needs to be highlighted in the executive summary. 
+The limitations of this model lie in the fact I was only able to predict 2 fiscal years into the future. And researching a model or trend which could predict accurately and further could definitely be an improvement. 
+For future models I would recommend to decrease the number of historical data especially when factoring in Covid-19 data. Also, I would like to automate the extraction via power automate to load directly into SQL table and run a procedure to carry out the transformation. This is so that when the next fiscal quarter report comes out the model can produce results faster. 
+Finally, I would try forecast ETS function which is a built in Excel function to offer a different prediction, and compare with the 4-point moving average. This is so that I can check to see is mine more robust and a better check for outliers such as 2026 Q1. 
+
+

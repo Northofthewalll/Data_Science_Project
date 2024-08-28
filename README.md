@@ -62,11 +62,15 @@ The Pie graph shows even with the spike in Q1 2026 the UK will not meet its targ
 ## Conclusion
 
 The purpose of the project was to determine whether or not the government’s pledge to make Fibre available to 85% of the Uk was feasible or not. After completing the time series model on the Ofcom dataset, I can now conclude that they will not meet this target by the end of 2025. By using applying a times series model to the data set and using a 4-point moving average. And showing the results via analytical graphs.
+
 I would recommend the government adjusts the target date or decreasing rollouts for upcoming areas. As this model was factoring in a more conservative average. In addition, the impact of the model extends to finance and growth of the country. As mentioned in my executive summary fibre availability has direct impact on the performance of the country in these key sectors.
+
 In regards to the ethics, privacy and legality of the model, I feel like approach covered all the bases. This was done by firstly using a public dataset which is published by a government approved regulator. Secondly, I ensured the dataset met GDPR such as no private data that could link back to an individual. 
+
 The one area where I feel like I needed to focus more on was bias, as someone who works in telecommunication industry I feel privileged to have a different view point to others. Furthermore, this could appear as bias from a third party who would see it as a conflict of interest which I believe needs to be highlighted in the executive summary. 
 The limitations of this model lie in the fact I was only able to predict 2 fiscal years into the future. And researching a model or trend which could predict accurately and further could definitely be an improvement. 
 For future models I would recommend to decrease the number of historical data especially when factoring in Covid-19 data. Also, I would like to automate the extraction via power automate to load directly into SQL table and run a procedure to carry out the transformation. This is so that when the next fiscal quarter report comes out the model can produce results faster. 
+
 Finally, I would try forecast ETS function which is a built in Excel function to offer a different prediction, and compare with the 4-point moving average. This is so that I can check to see is mine more robust and a better check for outliers such as 2026 Q1. 
 
 

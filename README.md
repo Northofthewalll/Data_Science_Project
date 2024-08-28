@@ -15,4 +15,37 @@ As I followed a standard Extract Transform and Load (AWS, 2022) model, there are
 
 ![Screenshots: ETL Diagram](Screenshots/FS_14.png)
 
+Dataset was downloaded from the Ofcom website and stored into a local directory. 
+Although the dataset is from a government approved regulatory I will perform my own data integrity checks before transformation. To ensure data accuracy throughout the process.
+
+![Screenshots: Dataset](Screenshots/FS_1.png)
+
+First, I had to multiply the figures by 1000 as the table was showing smaller integers for ease of viewing. I also created a separate column to show % and compared with the footnotes given on the OFCOM website.
+
+![Screenshots: Footnotes](Screenshots/FS_3.png)
+
+To check for NULL values, I used the “ISBLANK” function, and ran an integer check to make sure there were no STRINGS. This is because any NULL values can affect the results especially when working with trend lines and seasonal variations. 
+
+![Screenshots: Trendline](Screenshots/FS_5.png)
+
+Before transforming the data, I plotted the figures onto a Line graph to select the best trend line. There was no seasonality or cycles exhibited this could be due to not enough points during the fiscal year. This resulted in the moving average of 4 seemed to have the best fit. This also works well as there are 4 quarters in a fiscal year which creates 4 averages.
+To work out the 4-point AVG firstly I had to work out the Trend, which is done by using the function below.
+
+![Screenshots: Function1](Screenshots/FS_6.png)
+
+Next was to work out seasonality which is basically taking away the seasonality from the Fibre count
+
+![Screenshots: Function2](Screenshots/FS_7.png)
+
+Using this we can work out the Mean seasonal variation for each fiscal quarter.
+
+![Screenshots: Function3](Screenshots/FS_8.png)
+
+![Screenshots: Final Output](Screenshots/FS_9.png)
+Now we can apply the mean seasonal variation to predict the future values.
+
+![Screenshots: Load](Screenshots/FS_11.png)
+
+Final step was to save the final output to CSV and upload into powerbase for creating the dashboard and graphs. This is because it allows for easy ingestion as it’s a Microsoft product. And the advanced data visualisations will help to show the results of my project more clearly. 
+
 ### Heading 3

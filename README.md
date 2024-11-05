@@ -75,7 +75,7 @@ The Pie graph shows even with the spike in Q1 2026 the UK will not meet its targ
 
 ![Screenshots: Grapgh2](Screenshots/Final_Dashboard.png)
 
-Final view of completed iteractive Power BI dashboard, with security measures in place so that only authorised users have access.
+Final view of completed interactive Power BI dashboard, with security measures in place so that only authorised users have access.
 
 
 ## Conclusion

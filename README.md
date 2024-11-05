@@ -73,7 +73,7 @@ As you can see from the Line graph with the predicted values it shows a gradual 
 
 The Pie graph shows even with the spike in Q1 2026 the UK will not meet its target of 85% by 2025 using the 4-point moving average. Using the slicer, I can go all the way back to 2007 Q1 and is interactive making it easier to view data. As the chart would more than likely end up in non-technical hands, it needs to be easy to use.
 
-![Screenshots: Grapgh2](Screenshots/Fina_Dashboard.png)
+![Screenshots: Grapgh2](Screenshots/Final_Dashboard.png)
 
 
 
